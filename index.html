@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Company Website</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js\slideshow.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox-plus-jquery.min.js"></script>
+    <script src="js\slideshow.jsslideshow.js"></script>
+    <link rel="icon" href="./images/image.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <canvas id="canvas"></canvas>
+    <script src="./js/style.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <!-- <a href="#" class="logo"><img src="./images/Logo_Enhanced.svg" alt=""></a> -->
+        <a href="#" class="logo"><img src="./images/image.png" alt="" style="width: 130px; height: 100px;"></a>
+
+        <div class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#service">services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  <!-- <section id="home" class="home">
+     <h1 id="h1Text">TRANSFORM YOUR BUSINESS</h1>
+    <h2 id="h2Text">WITH OUR EXPERTISE</h2> -->
+     <!-- <div class="wave wave1"></div> -->
+    <!-- <div class="wave wave2"></div> -->
+    <!-- <div class="wave wave3"></div> -->
+  <!-- </section> -->
+
+  <section id="about" class="about" style="background-color: #242323;">
+    <h1 class="heading" style="color: #1989ac;">about us</h1>
+
+    <div class="row">
+      <div class="content">
+        <p class="spacious" style="color: #e6e6e6 ;">
+          We speak your language, not just lines of code.<br>
+          We decipher your needs, translate them into innovative solutions,<br>
+          and then seamlessly integrate them into your workflow.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <div class="services-section pt-5 pb-5" style="background-color: #242323;">
+    <div class="container">
+        <div class="section-head col-sm-12" id="service">
+            <h1 class="heading" style="font-size: 3em; color: #1989ac;">Our Services</h1>
+            <h3 style="color: #e6e6e6 ;">We help you to build high-quality digital solutions and products as well as deliver a wide range of related professional services. We are providing world-class service to our clients.</h3>
+        </div>
+        <div class="row">
+            <!-- Mobile App Development Service -->
+            <div class="col-lg-4 col-sm-6 service-box">
+                <div class="icon"><i class="fa fa-android" style="color: #34C634;"></i></div>
+                <h6>Mobile App Development</h6>
+                <p>Designing and developing applications for mobile devices, enabling businesses to reach and engage with their customers on the go.</p>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 service-box">
+                <div class="icon"><i class="fa fa-code" style="color: #2196F3;"></i></div>
+                <h6>Web Development (Full stack)</h6>
+                <p>Building websites and web applications using programming languages, facilitating online presence and seamless user experiences.</p>
+            </div>
+
+            <!-- Custom Software Development Service -->
+            <div class="col-lg-4 col-sm-6 service-box">
+                <div class="icon"><i class="fas fa-code" style="color: #E57300;"></i></div>
+                <h6>Custom Software Development</h6>
+                <p>Creating tailor-made software solutions to address specific business needs, increasing efficiency and productivity.</p>
+            </div>
+
+            <!-- ... Add other services in a similar format ... -->
+
+            <!-- Cybersecurity Services -->
+            <div class="col-lg-4 col-sm-6 service-box">
+                <div class="icon">
+                    <i class="fab fa-bitcoin" style="color: #E53935;"></i>
+                </div>
+                <h6>Blockchain Development</h6>
+                <p>Implementing decentralized and secure distributed ledger technology, enabling transparent transactions, digital identity management, and trustless systems.</p>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6 service-box">
+                <div class="icon">
+                    <i class="fas fa-cogs" style="color: #E53935;"></i>
+                </div>
+                <h6>Machine Learning Solutions</h6>
+                <p>Creating algorithms and models that enable computers to learn from data, making accurate predictions and intelligent recommendations.</p>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 service-box">
+                <div class="icon"><i class="fa fa-lock" style="color: #E53935;"></i></div>
+                <h6>Cybersecurity Services</h6>
+                <p>Protecting systems, networks, and data from cyber threats, ensuring confidentiality, integrity, and availability of digital assets.</p>
+            </div>
+
+            
+                <!-- <div class="row"> -->
+                    <!-- Web Development (Full stack) -->
+                    <div class="col-lg-4 col-sm-6 service-box">
+                        <div class="icon"><i class="fa fa-gamepad" style="color: #FF5722;"></i></div>
+                        <h6>Game Development</h6>
+                        <p>Designing and developing interactive and engaging games for various platforms, providing entertainment and immersive experiences to players.</p>
+                </div>
+
+                    <div class="col-lg-4 col-sm-6 service-box">
+                        <div class="icon"><i class="fa fa-chart-bar" style="color: #3949AB;"></i></div>
+                        <h6>Data Analytics and Business Intelligence</h6>
+                    <p>Collecting and analyzing data to gain actionable insights, empowering businesses to make data-driven decisions and optimize processes.</p>
+                </div>
+        
+                    <!-- Cloud Computing Services -->
+                    <!-- <div class="col-lg-4 col-sm-6 service-box">
+                        <div class="icon"><i class="fa fa-cloud" style="color: #2196F3;"></i></div>
+                        <h6>Blockchain Development</h6>
+                        <p>Implementing decentralized and secure distributed ledger technology, enabling transparent transactions, digital identity management, and trustless systems.</p>
+                    </div> -->
+
+                    <div class="col-lg-4 col-sm-6 service-box">
+                        <div class="icon"><i class="fas fa-vr-cardboard" style="color: #2196F3;"></i></div>
+                        <h6>Virtual Reality (VR) and Augmented Reality (AR) Development</h6>
+                        <p>Creating immersive experiences that merge virtual and real-world elements, revolutionizing industries like gaming, education, and training.</p>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 service-box">
+                        <div class="icon"><i class="fa fa-cloud" style="color: #2196F3;"></i></div>
+                        <h6>Cloud Computing Services</h6>
+                        <p>Providing scalable and flexible cloud-based infrastructure and services, allowing businesses to store, process, and analyze data efficiently.</p>
+                    </div>
+        
+                    <!-- Artificial Intelligence Development -->
+                    <div class="col-lg-4 col-sm-6 service-box">
+                        <div class="icon"><i class="fas fa-comments" style="color: green;"></i></div>
+                        <h6>Chatbot Development</h6>
+                    <p>Building AI-powered conversational agents to automate customer interactions, improve customer service, and provide personalized assistance.</p>
+                </div>
+                    
+                    <div class="col-lg-4 col-sm-6 service-box">
+                        <div class="icon"><i class="fas fa-user-tie" style="color: #9C27B0;"></i></div>
+                        <h6>IT Consulting and Strategy</h6>
+                    <p>Providing expert guidance on technology adoption, digital transformation, and IT infrastructure planning, aligning technology solutions with business goals.</p>
+                </div>
+
+                    <div class="col-lg-4 col-sm-6 service-box">
+                        <div class="icon"><i class="fas fa-chart-bar" style="color: #9C27B0;"></i></div>
+                        <h6>Data Science Services</h6>
+                        <p>Leveraging statistical analysis and machine learning techniques to extract valuable insights from data, enabling predictive modeling, optimization, and decision support.</p>
+                        </div>
+                    <!-- .... Add other services in a similar format ... -->
+        
+                    <!-- IT Infrastructure Management -->
+                    <div class="col-lg-4 col-sm-6 service-box">
+                        <div class="icon"><i class="fas fa-cloud-upload-alt" style="color: #9C27B0;"></i></div>
+                        <h6>Cloud Migration Services</h6>
+                        <p>Assisting businesses in transitioning their IT infrastructure and applications to the cloud, ensuring scalability, cost-efficiency, and improved accessibility.</p>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 service-box">
+                        <div class="icon"><i class="fa fa-network-wired" style="color: #3949AB;"></i></div>
+                        <h6>IT Infrastructure Management</h6>
+                        <p>Offering services to monitor, maintain, and optimize IT systems, networks, and servers, ensuring high performance, availability, and security.</p>
+                    </div>
+        </div>
+    </div>
+</div>
+
+<style>
+
+    .image-item {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .image-item.loaded {
+        opacity: 1;
+        transform: translateY(0);
+    }
+ 
+
+
+    <!-- .services-section p {
+        color: e6e6e6 ;
+      } -->
+    .services-section {
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .section-head h1, .section-head p {
+        text-align: center;
+        color: #333;
+    }
+
+    .section-head h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+    }
+
+    .section-head p {
+        color: white;
+        font-size: 1.2em;
+        margin-bottom: 40px;
+    }
+
+    .service-box {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin: 20px 0;
+        transition: transform 0.3s ease;
+        border-radius: 10px;
+    }
+
+    .service-box:hover {
+        background-image: linear-gradient(45deg, #ff0000, #ff7700, #ffdd00, #00ff77, #0077ff, #7700ff);
+        background-size: 600% 100%;
+        animation: gradient 4s linear infinite;
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 100%;
+        }
+        100% {
+            background-position: 100% 100%;
+        }
+    }
+    .service-box .icon {
+        font-size: 3em;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .service-box h6 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+        color: #1989ac;
+        text-align: center;
+    }
+
+    .service-box p {
+        font-size: 1.2em;
+        color: gray
+    }
+    .rainbow-background {
+        background-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+        background-size: 600% 600%;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        animation: rainbow 8s linear infinite;
+    }
+
+    .project-cards {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 1px 0; /* Adjust the margin as needed */
+    }
+
+    .card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 1px; /* Adjust the margin as needed */
+        padding: 15px;
+        width: 300px; /* Adjust the width as needed */
+    }
+
+    .card-title {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .card-list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .card-list li {
+        margin-bottom: 5px;
+    }
+
+    /* Additional styling for links */
+    .card-list a {
+        color: #007BFF; /* Change the link color as needed */
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .card-list a:hover {
+        text-decoration: underline;
+    }
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 15px;
+    }
+
+    .image-item {
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .image-item img {
+        width: 100%;
+        height: auto;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .image-item:hover img {
+        opacity: 0.8;
+    }
+</style>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  <!-- <section class="counters">
+    <div class="container">
+        <div>
+            <i class="far fa-clock fa-4x"></i>
+            <div class="counter" data-target="13500">0</div>
+            <h3>Working Hours</h3>
+        </div>
+        <div>
+            <i class="fas fa-gift fa-4x"></i>
+            <div class="counter" data-target="720">0</div>
+            <h3>Completed Projects</h3>
+        </div>
+        <div>
+            <i class="fas fa-users fa-4x"></i>
+            <div class="counter" data-target="480">0</div>
+            <h3>Happy Clients</h3>
+        </div>
+        <div>
+            <i class="fas fa-award fa-4x"></i>
+            <div class="counter" data-target="120">0</div>
+            <h3>Awards Received</h3>
+        </div>
+    </div>
+</section> -->
+
+
+<!-- ---------------------------project screenshots---------------------------------------------- -->
+
+
+<div class="pt-5 pb-5" style="background-color: #242323;">
+    <div class="container">
+        <div class="section-head-1 col-sm-12" style="text-align: center;">
+            <h4 style="margin-top: -5rem; color: #1989ac;" id="portfolio"><span>Our</span> Projects</h4>
+            <p style="color: #e6e6e6 ;">Explore a universe of possibilities, built by our passionate team across web, mobile, and AI.</p>
+        </div>
+
+        <div class="image-grid">
+            <!-- First set of images -->
+            <div class="image-item">
+                <a href="./images/game_development1.png" data-lightbox="portfolio-gallery">
+                    <img src="./images/game_development1.png" alt="Game Development 1" class="img-fluid mb-3">
+                </a>
+            </div>
+            <div class="image-item">
+                <a href="./images/chatbot1.png" data-lightbox="portfolio-gallery">
+                    <img src="./images/chatbot1.png" alt="Chatbot 1" class="img-fluid mb-3">
+                </a>
+            </div>
+            <div class="image-item">
+                <a href="./images/game_development2.png" data-lightbox="portfolio-gallery">
+                    <img src="./images/game_development2.png" alt="Game Development 2" class="img-fluid mb-3">
+                </a>
+            </div>
+            <div class="image-item">
+                <a href="./images/game_development3.png" data-lightbox="portfolio-gallery">
+                    <img src="./images/game_development3.png" alt="Game Development 3" class="img-fluid mb-3">
+                </a>
+            </div>
+        
+            <!-- Second set of images -->
+            <div class="image-item">
+                <a href="./images/mobile_app1.png" data-lightbox="portfolio-gallery">
+                    <img src="./images/mobile_app1.png" alt="Mobile App 1" class="img-fluid mb-3">
+                </a>
+            </div>
+
+            <div class="image-item">
+                <a href="./images/game_development5.png" data-lightbox="portfolio-gallery">
+                    <img src="./images/game_development5.png" alt="Game Development5" class="img-fluid mb-3">
+                </a>
+            </div>
+            <div class="image-item">
+                <a href="./images/mobile_app2.png" data-lightbox="portfolio-gallery">
+                    <img src="./images/mobile_app2.png" alt="Mobile App 2" class="img-fluid mb-3">
+                </a>
+            </div>
+            <div class="image-item">
+                <a href="./images/mobile_app3.png" data-lightbox="portfolio-gallery">
+                    <img src="./images/mobile_app3.png" alt="Mobile App 3" class="img-fluid mb-3">
+                </a>
+            </div>
+            <div class="image-item">
+                <a href="./images/mobile_app4.png" data-lightbox="portfolio-gallery">
+                    <img src="./images/mobile_app4.png" alt="Mobile App 4" class="img-fluid mb-3">
+                </a>
+            </div>
+
+            <div class="image-item">
+                <a href="./images/game_development6.png" data-lightbox="portfolio-gallery">
+                    <img src="./images/game_development6.png" alt="Game Development 6" class="img-fluid mb-3">
+                </a>
+            </div>
+
+            <div class="image-item">
+                <a href="./images/mobile_app5.png" data-lightbox="portfolio-gallery">
+                    <img src="./images/mobile_app5.png" alt="Mobile App 5" class="img-fluid mb-3">
+                </a>
+            </div>
+
+            <div class="image-item">
+                <a href="./images/mobile_app8.png" data-lightbox="portfolio-gallery">
+                    <img src="./images/mobile_app8.png" alt="Mobile App 8" class="img-fluid mb-3">
+                </a>
+            </div>
+
+            <div class="image-item">
+                <a href="./images/mobile_app9.png" data-lightbox="portfolio-gallery">
+                    <img src="./images/mobile_app9.png" alt="Mobile App 9" class="img-fluid mb-3">
+                </a>
+            </div>
+
+            <div class="image-item">
+                <a href="./images/mobile_app12.png" data-lightbox="portfolio-gallery">
+                    <img src="./images/mobile_app12.png" alt="Mobile App 12" class="img-fluid mb-3">
+                </a>
+            </div>
+
+        </div>
+<!-- -------------------------------------------------------------------------------- -->
+
+<div class="project-cards">
+    <!-- AI/ML Projects -->
+    <div class="card">
+        <h3 class="card-title">AI/ML Projects</h3>
+        <ul class="card-list">
+            <li><a href="https://tweetfox.io/" target="_blank">TweetFox</a></li>
+            <li><a href="https://healthiq.plus/" target="_blank">HealthIQ</a></li>
+            <li><a href="https://assignmentgpt.ai/" target="_blank">AssignmentGPT</a></li>
+        </ul>
+    </div>
+
+    <!-- Chatbot Projects -->
+    <div class="card">
+        <h3 class="card-title">Chatbot Projects</h3>
+        <ul class="card-list">
+            <li><a href="https://play.google.com/store/apps/details?id=com.chat.rapidchatgpt&hl=en-IN" target="_blank">RapidChatbot</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.aichat.chatgod&hl=en-IN" target="_blank">ChatGod</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.avtar.ai" target="_blank">Avtar AI</a></li>
+        </ul>
+    </div>
+
+    <!-- Flutter Projects -->
+    <div class="card">
+        <h3 class="card-title">Flutter Projects</h3>
+        <ul class="card-list">
+            <li><a href="https://www.leaderbridge.com/" target="_blank">Leader Bridge</a></li>
+            <li><a href="https://www.barbera.io/" target="_blank">Barbera</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+<!-- ------------------------------------------------------------------------- -->
+<!-- Strapi Projects -->
+<div class="project-cards">
+    <div class="card">
+        <h3 class="card-title">Strapi Projects</h3>
+        <ul class="card-list">
+            <li><a href="https://www.lrceurope.com/" target="_blank">LRC Europe</a></li>
+            <li><a href="https://www.puurspanje.nl/" target="_blank">Puur Spanje</a></li>
+            <li><a href="https://ocxee.com/" target="_blank">Ocxee</a></li>
+            <li><a href="https://bluejestic.com/" target="_blank">Bluejestic</a></li>
+        </ul>
+    </div>
+
+    <!-- Android  Projects -->
+    <div class="card">
+        <h3 class="card-title">Android Apps</h3>
+        <ul class="card-list">
+            <li><a href="https://play.google.com/store/apps/details?id=app.barbera.io" target="_blank">Barbera</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.app.sparks" target="_blank">Sparks</a></li>
+            <li><a href="https://play.google.com/store/search?q=rentop&c=apps" target="_blank">Rentop</a></li>
+        </ul>
+    </div>
+
+    <!--ios Projects -->
+    <div class="card">
+    <h3 class="card-title">iOS Apps</h3>
+    <ul class="card-list">
+        <li><a href="https://apps.apple.com/in/app/barbera/id1573537138" target="_blank">Barbera</a></li>
+        <li><a href="https://apps.apple.com/in/app/sparks-solutions/id6444655088" target="_blank">Sparks Solutions</a>
+        </li>
+        <li><a href="https://apps.apple.com/in/app/rentop-scooter-bike-rental/id1661307350" target="_blank">Rentop
+                Scooter &
+                Bike Rental</a></li>
+        <li><a href="https://apps.apple.com/in/app/ocxee/id1522856353" target="_blank">Ocxee</a></li>
+    </ul>
+</div>
+</div>
+
+<!-- ------------------------------------------------------------------------ -->
+
+
+<div class="project-cards">
+    <!-- Real Estate Example -->
+    <div class="card">
+        <h3 class="card-title">Real Estate Example</h3>
+        <ul class="card-list">
+            <li><a href="https://ourleisurehome.com/" target="_blank">Our Leisure Home</a></li>
+        </ul>
+    </div>
+
+    <!-- GraphCMS Projects -->
+    <div class="card">
+        <h3 class="card-title">GraphCMS Projects</h3>
+        <ul class="card-list">
+            <li><a href="https://avtars.ai/" target="_blank">Avtars.ai</a></li>
+            <li><a href="https://rejoiceta.com" target="_blank">Rejoiceta</a></li>
+        </ul>
+    </div>
+
+    <!-- Next.js Projects -->
+    <div class="card">
+        <h3 class="card-title">Next.js Projects</h3>
+        <ul class="card-list">
+            <li><a href="https://bluejestic.com/" target="_blank">Bluejestic</a></li>
+            <li><a href="https://www.puurspanje.nl/" target="_blank">Puur Spanje</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- ------------------------------------------------------------------------ -->
+
+
+<div class="project-cards">
+    <!-- Real Estate Example -->
+    <div class="card">
+        <h3 class="card-title">Fintech</h3>
+        <ul class="card-list">
+            <li><a href="https://www.fe-finance.de/" target="_blank">FE Finance</a></li>
+        </ul>
+    </div>
+
+    <!-- GraphCMS Projects -->
+    <div class="card">
+        <h3 class="card-title">Angular Projects</h3>
+        <ul class="card-list">
+            <li><a href="https://ocxee.com/" target="_blank">Ocxee</a></li>
+        </ul>
+    </div>
+
+    <!-- Next.js Projects -->
+    <div class="card">
+        <h3 class="card-title">E-commerce Site</h3>
+        <ul class="card-list">
+            <li><a href="https://us.ideenstores.com/" target="_blank">ideenstores</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- ------------------------------------------------------------------------ -->
+
+
+
+
+<a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Add 'loaded' class to each image-item after the page is loaded
+        const imageItems = document.querySelectorAll('.image-item');
+        imageItems.forEach(item => item.classList.add('loaded'));
+    });
+</script>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/jquery/jquery-migrate.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+
+<script src="./js/smtp.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        var host = localStorage.getItem("host");
+        var username = localStorage.getItem("username");
+        var pwd = localStorage.getItem("password");
+        function sendEmail() {
+            Email.send({
+                Host: host,
+                Username: username,
+                Password: pwd,
+                To: 'futureisai.tech@gmail.com',
+                From: 'irfan.battegeri@gmail.com',
+                Subject: "New Form Inquiry",
+                Body: "Name: " + document.getElementById("name").value
+                    + "<br> Email: " + document.getElementById("email").value
+                    + "<br> Phone: " + document.getElementById("phone").value
+                    + "<br> Message: " + document.getElementById("msg").value
+            }).then(
+                message => alert("Message sent Successfully")
+            ).catch(Error => console.error(Error));
+        }
+
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        function changeBackgroundColor() {
+            var color = getRandomColor();
+            var h1Element = document.getElementById("h1Text");
+            var h2Element = document.getElementById("h2Text");
+
+            h1Element.style.backgroundColor = color;
+            h2Element.style.backgroundColor = color;
+        }
+
+        // Change background color every 2 seconds
+        setInterval(changeBackgroundColor, 2000);
+    </script>
+
+    <section id="contact" class="contact">
+        <h1 class="heading" style="color: #1989ac;">get in touch</h1>
+    </section>
+    <div class="contact-in">
+        <div class="contact-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30711243.17762776!2d64.4398422293091!3d20.011408266548177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1644684739958!5m2!1sen!2sin"
+                width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="contact-form">
+            <form onsubmit="sendEmail(); reset(); return false;">
+                <input type="text" id="name" name="name" placeholder="Name" class="contact-form-txt" required>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Contact number"
+                    maxlength="10" class="contact-form-phone">
+                <input type="email" name="email" placeholder="email" id="email" class="contact-form-email" required>
+                <textarea placeholder="Your Message" name="message" id="msg" class="contact-form-txtarea"
+                    required></textarea>
+                <input type="submit" value="Submit" name="submit" class="contact-form-btn">
+            </form>
+        </div>
+    </div>
+
+<!-- <section id="contact" class="contact">
+    <h1 class="heading">get in touch</h1>
+</section>
+<div class="contact-in">
+    <div class="contact-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30711243.17762776!2d64.4398422293091!3d20.011408266548177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1644684739958!5m2!1sen!2sin" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="contact-form">
+        <form action="./contactme.php" method="POST">
+            <input type="text" name="name" placeholder="Name" class="contact-form-txt" required>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Contact number" maxlength="10" class="contact-form-phone">
+            <input type="email" name="email" placeholder="Email" class="contact-form-email" required>
+            <textarea placeholder="Your Message" name="message" class="contact-form-txtarea" required></textarea>
+            <input type="submit" value="Submit" name="submit" class="contact-form-btn">
+        </form>
+    </div>
+    </div> -->
+
+    <section class="faq">
+      <h1 class="heading" style="margin-top: -2rem; color: #00bfff;" id="faq">FAQ</h1>
+      <div class="row">
+          <div class="accordion-container">
+              <div class="accordion">
+                  <div class="accordion-header">
+                      <span>+</span>
+                      <h3>What's the pricing structure?</h3>
+                  </div>
+                  <div class="accordion-body">
+                      <p>To get a better idea of the cost of what you want to build, give us a quick phone call. We’ll ask you a few questions about the nature of the site, what sort of interactivity the site will have, your graphic design needs, etc. 
+                          Then we’ll be able to give you a ballpark figure. 
+                          If you’re still interested, we’ll come to your place of business and come up with a firm quote.</p>
+                  </div>
+              </div>
+              <div class="accordion">
+                  <div class="accordion-header">
+                      <span>+</span>
+                      <h3>How long it takes to design?</h3>
+                  </div>
+                  <div class="accordion-body">
+                      <p>The time limit of any assignment is normally dictated by the client. If you have any time limit in mind we will attempt to assemble it for you. 
+                          The main general delay in the making of a website is waiting for the content of the pages to be sent to us by the client.</p>
+                  </div>
+              </div>
+              <div class="accordion">
+                  <div class="accordion-header">
+                      <span>+</span>
+                      <h3>How do I associate with IT Company?</h3>
+                  </div>
+                  <div class="accordion-body">
+                      <p>The process begins when you contact us with your requirements. We analyze your requirements and respond to you. 
+                          On the basis of the further discussion, you can choose an engagement model that suits you the best. 
+                          After that, we begin the process of development.</p>
+                  </div>
+              </div>
+              <div class="accordion">
+                  <div class="accordion-header">
+                      <span>+</span>
+                      <h3>Can you help my current site look more professional?</h3>
+                  </div>
+                  <div class="accordion-body">
+                      <p>Yes. Give us your requirements and we have experienced expertise to help you give a 
+                          new professional look that really wonders!</p>
+                  </div>
+              </div>
+              <div class="accordion">
+                  <div class="accordion-header">
+                      <span>+</span>
+                      <h3>When do I pay?</h3>
+                  </div>
+                  <div class="accordion-body">
+                      <p>For most projects, equal payments are made at the start, midway, and the end of the project, but we can work with you to set up a schedule that meets your needs. 
+                          We understand that this is a big investment and want to help you budget for the expense in whatever way possible.
+                          We accept checks, PayPal, and all major credit cards.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <div class="footer">
+      <div class="footer-top">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 col-md-6 footer-links">
+                      <h4>About Us</h4>
+                      <ul>
+                          <li><i class="ion-ios-arrow-forward"></i> <a href="#">Home</a></li>
+                          <li><i class="ion-ios-arrow-forward"></i> <a href="#about">About us</a></li>
+                          <li><i class="ion-ios-arrow-forward"></i> <a href="#service">Our services</a></li>
+                      </ul>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 footer-links">
+                      <h4>Useful Links</h4>
+                      <ul>
+                          <li><i class="ion-ios-arrow-forward"></i> <a href="#portfolio">Portfolio</a></li>
+                          <!-- <li><i class="ion-ios-arrow-forward"></i> <a href="#team">Team</a></li>
+                          <li><i class="ion-ios-arrow-forward"></i> <a href="careers.html">Career</a></li> -->
+                          <li><i class="ion-ios-arrow-forward"></i> <a href="#contact">Contact</a></li>
+                          <li><i class="ion-ios-arrow-forward"></i> <a href="#faq">FAQ</a></li>
+                      </ul>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 footer-contact" style="font-size: 1.5rem;">
+                      <h4>Contact Us</h4>
+                      <p>
+                          Hyderabad , India <br>
+                          <strong>Phone:</strong> +91 - 6303438141<br>
+                          <strong>Email:</strong> info@futureisai.tech<br>
+                      </p>
+
+                      <div class="social-links">
+<!--                           <a href="https://www.facebook.com/"><i class="ion-logo-facebook"></i></a> -->
+                          <a href="https://twitter.com/futureisai_tech"><i class="ion-logo-twitter"></i></a>
+                          <a href="https://www.linkedin.com/company/aiisfuture/"><i class="ion-logo-linkedin"></i></a>
+                          <a href="https://www.instagram.com/futureisai_tech"><i class="ion-logo-instagram"></i></a>
+<!--                           <a href="https://accounts.google.com/servicelogin/signinchooser?flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="ion-logo-googleplus"></i></a> -->
+                      </div>
+
+                  </div>
+
+                <div class="col-lg-3 col-md-6 footer-newsletter">
+                    <img src="./images/image.png"  width="195" height="180">
+
+                  </div>
+
+                  <!-- <div class="col-lg-3 col-md-6 footer-newsletter">
+                      <h4>Subscription</h4>
+                      <p>With Our Skills Put Together, You Get An Ensemble Capable Of Doing Anything And Everything Your Brand Needs. Subscribe Here To Get Our Latest Updates.</p>
+                      <form action="" method="post">
+                          <input type="email" name="email"><input type="submit"  value="Subscribe">
+                      </form>
+                  </div> -->
+
+              </div>
+          </div>
+      </div>
+
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-md-6 copyright" style="color: #fff; font-size: 1.3rem;">
+                  Copyright &copy; 2023 FutureisAI. All Rights Reserved.
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+</body>
+</html>
